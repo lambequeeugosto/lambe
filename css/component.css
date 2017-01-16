@@ -5,7 +5,7 @@
 	top: 0;
 	left: 0;
 	width: 100%;
-	background: #ccff33;
+	background: #f4e72d;
 	z-index: 10000;
 	height: 230px;
 	overflow: hidden;
@@ -194,5 +194,5 @@
 }
 
 .about-button input.about-submit:hover {
-	background: #ccff33;
+	background: #f4e72d;
 }
