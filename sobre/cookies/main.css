@@ -33,6 +33,10 @@ h2 {
     margin-top: 1.3em;
 }
 
+p {
+    text-align: justify;
+}
+
 a {
     color: #0083e8;
     text-decoration: none;
