@@ -6,7 +6,7 @@ Efeitos experimentais de pop up para itens de mídia
 
 [Demo](http://tympanus.net/Development/MediaPopUpEffect/)
 
-Esta página foi desenvolvida pela designer Mary Lou, blogueira de deisgn para o Codrops. Todos os elementos foram editados e adaptados por Flávio Vivório Carneiro, estudante de design e membro da LAMBE, QUE EU GOSTO.
+Esta página foi desenvolvida pela designer Mary Lou, blogueira de deisgn para o Codrops. Todos os elementos foram editados e adaptados por Flávio Vivório Carneiro, estudante de design e membro da LAMBE QUE EU GOSTO.
 
 ## Licença
 
