@@ -7,8 +7,6 @@ body, html { font-size: 100%; padding: 0; margin: 0;}
 .clearfix:before, .clearfix:after { content: " "; display: table; }
 .clearfix:after { clear: both; }
 
-@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
-
 body {
     font-family: 'Roboto Slab', serif;
     color: #463089;
@@ -193,6 +191,13 @@ a:hover {
 		padding: 2em 5%;
 		font-size: 1.4em;
 	}
+}
+
+.sub {
+    font-family: "Bahiana", cursive;
+    color: #6B2F75;
+    font-weight: lighter;
+    font-size: 3em;
 }
 
 footer,
