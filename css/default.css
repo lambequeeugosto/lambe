@@ -193,11 +193,20 @@ a:hover {
 	}
 }
 
+.st0 {
+    fill:#333333;
+}
+
+.svg {
+    width: 42vw;
+    height: auto;
+}
+
 .sub {
-    font-family: "Bahiana", cursive;
+    font-family: "Barrio", cursive;
     color: #6B2F75;
     font-weight: lighter;
-    font-size: 3em;
+    font-size: 2.05em;
 }
 
 footer,
