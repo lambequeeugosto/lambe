@@ -15,6 +15,71 @@ body {
 	-moz-osx-font-smoothing: grayscale;
 }
 
+p::selection {
+  background: #f4e72d;
+}
+
+p::-moz-selection {
+  background: #f4e72d;
+}
+
+li::selection {
+  background: #f4e72d;
+}
+
+li::-moz-selection {
+  background: #f4e72d;
+}
+
+a::selection {
+  background: #f4e72d;
+}
+
+a::-moz-selection {
+  background: #f4e72d;
+}
+
+b::selection {
+  background: #f4e72d;
+}
+
+b::-moz-selection {
+  background: #f4e72d;
+}
+
+i::selection {
+  background: #f4e72d;
+}
+
+i::-moz-selection {
+  background: #f4e72d;
+}
+
+us::selection {
+  background: #f4e72d;
+}
+
+u::-moz-selection {
+  background: #f4e72d;
+}
+
+h1::selection {
+  background: #f4e72d;
+}
+
+h1::-moz-selection {
+  background: #f4e72d;
+}
+
+strong::selection {
+  background: #f4e72d;
+}
+
+strong::-moz-selection {
+  background: #f4e72d;
+}
+
+
 a {
 	color: #333;
 	text-decoration: none;
