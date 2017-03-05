@@ -199,15 +199,6 @@ a:focus {
   -ms-flex-wrap: wrap;
   flex-wrap: wrap; }
 
-/* Related demos */
-.content--related {
-  font-weight: bold;
-  text-align: center;
-  display: block;
-  color: #f6f6f6;
-  background: #222;
-  padding: 5em 1em; }
-
 .media-item {
   display: inline-block;
   padding: 1em;
@@ -235,7 +226,7 @@ a:focus {
   color: #fff; }
 
 .section {
-  min-height: 400px;
+  min-height: 290px;
   width: calc(50% - 20vw);
   min-width: 300px;
   height: 50vh;
@@ -421,3 +412,15 @@ h5 {
     filter: hue-rotate(360deg); } }
 
 /*# sourceMappingURL=main.css.map */
+
+footer {
+    display: block;
+    margin: auto;
+    vertical-align: text-top;
+    text-align: center;
+}
+
+footer .svg {
+    height: 35px;
+    width: auto;
+}
