@@ -58,6 +58,16 @@
         </script>
         <!-- END GOOGLE ANALYTICS WEBSITE MONITORING -->
 
+        <!-- reload -->
+        <script>
+        window.onload = function() {
+            if(!window.location.hash) {
+                window.location = window.location + '#loaded';
+                window.location.reload();
+            }
+        }
+        </script>
+
 	</head>
 	<body>
         <div class="demo-menu">
