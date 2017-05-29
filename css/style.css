@@ -257,6 +257,10 @@ main {
 	text-align: right;
 }
 
+.content--related a {
+    text-decoration: none;
+}
+
 .media-item {
 	width: 250px;
 	display: inline-block;
