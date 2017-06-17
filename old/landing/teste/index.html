@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<!--
+    Opa! Vi que você se interessou em saber como isso daqui funciona.
+    Saiba que as pessoas mais legais passam por aqui. Fique à vontade e dê uma olhada
+-->
+<html lang="pt-BR" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1.0">
+		<title>LAMBE QUE EU GOSTO</title>
+		<meta name="description" content="LAMBE QUE EU GOSTO: Coletivo de design gráfico e arquitetura e urbanismo social e uso da arte e da criatividade por uma boa causa" />
+		<meta name="keywords" content="design, grafico, social, arte, criatividade, sociedade, cultura, socialismo, natureza" />
+		<meta name="author" content="LAMBEQUEEUGOSTO" />
+        <meta name="robots" content="all"/>
+        <meta name='Googlebot' content='all' />
+        <link rel='vcs-git' href='git://github.com/lambequeeugosto/lambequeeugosto.github.io.git' title='website lambequeeugosto Git repository'/>
+        <link rel='vcs-git' href='https://github.com/lambequeeugosto/lambequeeugosto.github.io.git' title='website lambequeeugosto Git repository'/>
+
+        <!-- BEGIN FAVICON AND APPLE TOUCH ICON TAGS -->
+        <!-- icons designed by Freepik (freepik.com) -->
+		<link rel="shortcut icon" href="icon/favicon.ico">
+
+        <link rel="icon" type="image/png" href="icon/favicon-16x16.png" sizes="16x16" />
+        <link rel="icon" type="image/png" href="icon/favicon-32x32.png" sizes="32x32" />
+
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="icon/favicon-144x144.png" />
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="icon/favicon-114x114.png" />
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="icon/favicon-72x72.png" />
+        <link rel="apple-touch-icon-precomposed" href="icon/lambe-apple-touch-icon-precomposed.png" />
+        <!-- END FAVICON AND APPLE TOUCH ICON TAGS -->
+
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<link rel="stylesheet" type="text/css" href="css/revealer.css" />
+        <link rel="stylesheet" type="text/css" href="https://lambelambe.me/fontawesome/font-awesome.css" />
+        <link rel="stylesheet" type="text/css" href="https://lambelambe.me/fontawesome/font-awesome.min.css" />
+		<script>document.documentElement.className = 'js';</script>
+
+        <!-- BEGIN BAR AND THEME COLORS -->
+        <!-- Chrome, Android, Ubuntu, Firefox OS and Opera -->
+        <meta name="theme-color" content="#f4e72d">
+        <!-- iOS and Safari -->
+        <meta name="apple-mobile-web-app-status-bar-style" content="#f4e72d">
+        <!-- Windows Phone -->
+        <meta name="msapplication-navbutton-color" content="#f4e72d">
+        <!-- END BAR AND THEME COLORS -->
+
+        <!-- BEGIN GOOGLE ANALYTICS WEBSITE MONITORING -->
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-90337690-1', 'auto');
+          ga('send', 'pageview');
+        </script>
+        <!-- END GOOGLE ANALYTICS WEBSITE MONITORING -->
+		
+	</head>
+	<body class="demo-menu">
+		<main>
+			<header class="codrops-header">
+            <ul class="icons" align="left">
+                <li><a target="_blank" class="icon fa-facebook" href="https://www.facebook.com/lambequeeugosto/" title="Facebook"><span class="label">Facebook</span></a></li>
+                <li><a target="_blank" class="icon fa-instagram" href="https://www.instagram.com/lambequeeugosto/" title="Instagram"><span class="label">Instagram</span></a></li>
+                <li><a target="_blank" class="icon fa-behance" href="https://www.behance.net/lambequeeugosto/" title="Behance"><span class="label">Behance</span></a></li>
+                <li><a class="icon fa-flickr" href="https://www.flickr.com/photos/lambequeeugosto" title="Flickr"><span class="label">Flickr</span></a></li>
+            </ul>
+
+				<button alt="Abrir menu" title="Abrir menu" class="btn btn--menu"><i class="fa fa-plus-circle"></i></button>
+			</header>
+			<nav class="menu">
+				<button alt="Fechar" title="Fechar" class="btn btn--close"><i class="fa fa-times-rectangle"></i></button>
+				<ul class="menu__inner">
+					<li class="menu__item"><a class="menu__link" href="sobre/">sobre</a></li>
+					<li class="menu__item"><a class="menu__link" href="lambes/">lambes</a></li>
+					<li class="menu__item"><a class="menu__link" href="projetos/">projetos</a></li>
+					<li class="menu__item"><a class="menu__link" href="arquivos/">arquivos</a></li>
+				</ul>
+			</nav>
+		</main>
+		<script src="js/anime.min.js"></script>
+		<script src="js/main.js"></script>
+		<script>
+		(function() {
+			var navEl = document.querySelector('nav.menu'),
+				revealer = new RevealFx(navEl),
+				closeCtrl = navEl.querySelector('.btn--close');
+
+			document.querySelector('.btn--menu').addEventListener('click', window.onload = function() {
+				revealer.reveal({
+					bgcolor: '#7f40f1',
+					duration: 600, 
+					easing: 'easeInOutCubic',
+					onCover: function(contentEl, revealerEl) {
+						navEl.classList.add('menu--open');
+						contentEl.style.opacity = 1;
+					},
+					onComplete: function() {
+						closeCtrl.addEventListener('click', closeMenu);
+					}
+				});
+			});
+
+			function closeMenu() {
+				closeCtrl.removeEventListener('click', closeMenu);
+				navEl.classList.remove('menu--open');
+				revealer.reveal({
+					bgcolor: '#7f40f1',
+					duration: 400, 
+					easing: 'easeInOutCubic',
+					onCover: function(contentEl, revealerEl) {
+						navEl.classList.remove('menu--open');
+						contentEl.style.opacity = 0;
+					}
+				});
+			}
+		})();
+		</script>
+	</body>
+</html>
