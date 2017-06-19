@@ -1,1 +1,0 @@
-IDRViewer.config = {"pagecount":4,"title":"apresentacao-lambequeeugosto2","author":"","fileName":"apresentacao_lambequeeugosto2.pdf","bounds":[[1466,855],[1466,855],[1466,855],[1466,855]],"bookmarks":[],"thumbnailType":"jpg","pageType":"html","pageLabels":[]};
