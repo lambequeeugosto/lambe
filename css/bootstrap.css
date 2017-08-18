@@ -250,6 +250,9 @@ th {
   .navbar {
     display: none;
   }
+    .navbar-color {
+        color: #F4E72D;
+  }
   .btn > .caret,
   .dropup > .btn > .caret {
     border-top-color: #000 !important;
@@ -3747,7 +3750,7 @@ a.badge:focus {
   padding: 30px 15px;
   margin-bottom: 30px;
   color: inherit;
-  background-color: #F4E72D;
+  background-color: #f4e72d;
 }
 .jumbotron h1,
 .jumbotron .h1 {
@@ -5208,6 +5211,9 @@ button.close {
 .panel-body:after,
 .modal-footer:after {
   clear: both;
+}
+.flag {
+    color: #000000;
 }
 .center-block {
   display: block;
